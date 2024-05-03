@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Presentacion-de-alumno">
+    <title>Presentación</title>
+    <link rel="shortcut icon" href="./imgs/favicon.jpg">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Presentación</h1>
+        <picture class="multimedia">
+            <img src="./imgs/fotoperfil.png" alt="Foto de perfil" id="fotoperfil">
+        </picture>
+        <p>Lautaro Suarez</p>
+    </header>
+    <main>
+        <h2>INFORMACIÓN</h2>
+        <ul>
+            <li><b>Nombre:</b> Lautaro</li>
+            <li><b>Apellido:</b> Suarez</li>
+            <li><b>Edad:</b> 19 Años</li>
+            <li><b>Correo:</b> correotrucho@gmail.com</li>
+        </ul>
+    </main>
+    <section id="descripcionpersonal">
+        <h3 class="tituloboxh3"> SOBRE MÍ</h3>
+        <p>Mi nombre es Lautaro, soy profesor en lengua ingles.
+            Comencé a estudiar Programacion Full Stack en la academia NUCBA
+            con el objetivo de ampliar mis habilidades.
+            Soy apasionado con el hardware, motos y autos.
+        </p>
+    </section>
+    <section id="misredes">
+        <h3 class="tituloboxh3">Mis Redes</h3>
+        <nav id="redesnav">
+            <a href="https://github.com/OsniaaK" id="github-href" target="_blank" rel="noreferrer"><img src="imgs/logogithub.png"
+                    alt=""> GitHub</a>
+            <a href="https://steamcommunity.com/id/MalumNecessarium/" id="steam-href" target="_blank" rel="noreferrer"><img src="imgs/logosteam.png"
+                    alt=""> Steam</a>
+            <a href="https://www.twitch.tv/osniaak" id="twitch-href" target="_blank" rel="noreferrer"><img src="imgs/logotwitch.png"
+                    alt=""> Twitch</a>
+            <a href="https://www.tiktok.com/@osniaak.cs" id="tktkfalso" target="_blank" rel="noreferrer"><img src="imgs/logotiktok.png"
+                    alt=""> TikTok</a>
+        </nav>
+        <section>
+            <p class="titleformp">Formulario de Contacto</p>
+            <picture>
+                <img src="imgs/flechaformulario.png" alt="flechaform" id="flechaformulario">
+            </picture>
+        </section>
+    </section>
+    <section class="formulariocontacto">
+        <form action="">
+            <fieldset class="fieldsetform">
+                <legend class="tituloform">Coloca tus datos</legend>
+
+                <label for="Nombre" class="label-form">Nombre:</label>
+                <input type="text" placeholder="Ingrese su nombre" id="Nombre" class="inputformulario">
+
+                <label for="Telefono" class="label-form">Telefono:</label>
+                <input type="number" placeholder="Ingrese su telefono" id="Telefono" class="inputformulario">
+
+                <label for="Correo" class="label-form">Correo:</label>
+                <input type="email" placeholder="Ingrese su correo" id="Correo" class="inputformulario">
+
+                <label for="Country" class="label-form">Selecciona tu país:</label>
+                <select id="Country" name="Country" class="inputformulario">
+                    <option>Ninguno</option>
+                    <option value="Argentina" id="Argentina">Argentina</option>
+                    <option value="Chile" id="Chile">Chile</option>
+                    <option value="Uruguay" id="Uruguay">Uruguay</option>
+                    <option value="Paraguay" id="Paraguay">Paraguay</option>
+                    <option value="Bolivia" id="Bolivia">Bolivia</option>
+                    <option value="Peru" id="Peru">Peru</option>
+                    <option value="Brasil" id="Brasil">Brasil</option>
+                    <option value="Ecuador" id="Ecuador">Ecuador</option>
+                </select>
+            </fieldset>
+            <fieldset id="fieldset-textarea">
+                <legend class="tituloform">¡Dejame tu mensaje!</legend>
+                <label for="Mensaje" id="label-textarea"></label>
+                <textarea placeholder="Ingresa tu mensaje" id="Mensaje" class="inputformulariotext"></textarea>
+                <input type="checkbox" id="checkboxterms">
+                <label for="Terms" class="label-form">Estoy de acuerdo con los <a
+                        href="https://www.argentina.gob.ar/terminos-y-condiciones" target="_blank" rel="noreferrer"
+                        id="Terms">Términos y Condiciones</a></label>
+                <div id="botones-divform">
+                    <button type="submit" class="botton-form">Enviar</button>
+                    <button type="reset" class="botton-form">Reescribir</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>
