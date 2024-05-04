@@ -45,7 +45,7 @@
                     alt=""> Steam</a>
             <a href="https://www.twitch.tv/osniaak" id="twitch-href" target="_blank" rel="noreferrer"><img src="imgs/logotwitch.png"
                     alt=""> Twitch</a>
-            <a href="https://www.tiktok.com/@osniaak.cs" id="tktkfalso" target="_blank" rel="noreferrer"><img src="imgs/logotiktok.png"
+            <a href="https://www.tiktok.com/@osniaak.cs" id="tiktok-href" target="_blank" rel="noreferrer"><img src="imgs/logotiktok.png"
                     alt=""> TikTok</a>
         </nav>
         <section>
@@ -57,21 +57,22 @@
     </section>
     <section class="formulariocontacto">
         <form action="">
+
             <fieldset class="fieldsetform">
                 <legend class="tituloform">Coloca tus datos</legend>
 
                 <label for="Nombre" class="label-form">Nombre:</label>
-                <input type="text" placeholder="Ingrese su nombre" id="Nombre" class="inputformulario">
+                <input type="text" placeholder="Ingrese su nombre" id="Nombre" class="inputformulario" required>
 
                 <label for="Telefono" class="label-form">Telefono:</label>
-                <input type="number" placeholder="Ingrese su telefono" id="Telefono" class="inputformulario">
+                <input type="number" placeholder="Ingrese su telefono" id="Telefono" class="inputformulario" required>
 
                 <label for="Correo" class="label-form">Correo:</label>
-                <input type="email" placeholder="Ingrese su correo" id="Correo" class="inputformulario">
+                <input type="email" placeholder="Ingrese su correo" id="Correo" class="inputformulario" required>
 
-                <label for="Country" class="label-form">Selecciona tu país:</label>
-                <select id="Country" name="Country" class="inputformulario">
-                    <option>Ninguno</option>
+                <label for="Country" class="label-form" aria-required="true">Selecciona tu país:</label>
+                <select id="Country" name="Country" required>
+                    <option value="">Ninguno</option>
                     <option value="Argentina" id="Argentina">Argentina</option>
                     <option value="Chile" id="Chile">Chile</option>
                     <option value="Uruguay" id="Uruguay">Uruguay</option>
@@ -82,11 +83,12 @@
                     <option value="Ecuador" id="Ecuador">Ecuador</option>
                 </select>
             </fieldset>
+
             <fieldset id="fieldset-textarea">
                 <legend class="tituloform">¡Dejame tu mensaje!</legend>
                 <label for="Mensaje" id="label-textarea"></label>
-                <textarea placeholder="Ingresa tu mensaje" id="Mensaje" class="inputformulariotext"></textarea>
-                <input type="checkbox" id="checkboxterms">
+                <textarea placeholder="Ingresa tu mensaje" id="Mensaje" class="inputformulariotext" required></textarea>
+                <input type="checkbox" id="checkboxterms" required>
                 <label for="Terms" class="label-form">Estoy de acuerdo con los <a
                         href="https://www.argentina.gob.ar/terminos-y-condiciones" target="_blank" rel="noreferrer"
                         id="Terms">Términos y Condiciones</a></label>

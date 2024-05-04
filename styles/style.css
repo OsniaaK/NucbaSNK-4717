@@ -114,7 +114,8 @@ main>h2 {
 }
 #github-href:hover {
     background-color: #405685;
-    border-radius: 15%;
+    border-radius: 10%;
+    mask-image: radial-gradient(circle 75px at 50% 50%, black 60%, transparent 90%);
 }
 #steam-href {
     display: block;
@@ -126,7 +127,8 @@ main>h2 {
 }
 #steam-href:hover {
     background-color: #837574;
-    border-radius: 15%;
+    border-radius: 10%;
+    mask-image: radial-gradient(circle 75px at 50% 50%, black 60%, transparent 90%);
 }
 #twitch-href {
     display: block;
@@ -138,9 +140,10 @@ main>h2 {
 }
 #twitch-href:hover {
     background-color: #6441a5;
-    border-radius: 15%;
+    border-radius: 10%;
+    mask-image: radial-gradient(circle 75px at 50% 50%, black 60%, transparent 90%);
 }
-#tktkfalso {
+#tiktok-href {
     display: block;
     padding: 2px;
     text-decoration: none;
@@ -148,9 +151,11 @@ main>h2 {
     font-size: 15px;
     text-align: center;
 }
-#tktkfalso:hover {
+#tiktok-href:hover {
     background-color: #ff0067;
-    border-radius: 15%;
+    border-radius: 10%;
+    mask-image: radial-gradient(circle 75px at 50% 50%, black 60%, transparent 90%);
+
 }
 
 
@@ -191,6 +196,26 @@ main>h2 {
     max-height: 70px;
 }
 .inputformulario {
+    color: white;
+    text-align: center;
+    white-space: 40px;
+    border-spacing: 80px;
+    padding: 6px;
+    margin: 7px;
+    max-width: 140px;
+    max-height: 150px;
+    background-color: #064142;
+    border-color: white;
+    box-shadow: #CCA9DA 0px 1px 10px 1px;
+    border-radius: 5px 5px;
+    font-family: "Outfit", sans-serif;
+}
+#Country {
+    -moz-appearance: none;
+    -webkit-appearance:none;
+    -ms-appearance:none;
+    -o-appearance:none;
+    appearance:none;
     color: white;
     text-align: center;
     white-space: 40px;
@@ -263,4 +288,8 @@ main>h2 {
 #botones-divform {
     padding-top: 5px;
     word-spacing: 20px;
+}
+#checkboxterms:hover {
+    box-sizing: border-box;
+    cursor: pointer;
 }
