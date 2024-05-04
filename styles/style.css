@@ -157,18 +157,14 @@ main>h2 {
     mask-image: radial-gradient(circle 75px at 50% 50%, black 60%, transparent 90%);
 
 }
-
-
 .tituloboxh3 {
     text-shadow: black -5px 2px 1px, black 5px 2px 1px;
     text-align: center;
     font-size: 26px;
 }
 .titleformp {
-    padding-top: 40px;
-    padding-left: 0px;
-    margin-left: 10px;
-    margin-right: -15px;
+    padding-top: 50px;
+    padding-right: 30px;
     text-shadow: black -5px 2px 1px, black 5px 2px 1px;
     font-size: 20px;
 }
@@ -186,20 +182,18 @@ main>h2 {
     border-radius: 5px 5px;
     padding: 2px;
     margin: 5px;
-    margin-left: -10px;
+    margin-left: -20px;
     background-color: #064142;
     border: 2px solid white;
     text-align: center;
     min-width: 1050px ;
     max-width: 1050px;
-    min-height: 70px;
-    max-height: 70px;
+    min-height: 90px;
+    max-height: 90px;
 }
 .inputformulario {
     color: white;
     text-align: center;
-    white-space: 40px;
-    border-spacing: 80px;
     padding: 6px;
     margin: 7px;
     max-width: 140px;
@@ -209,6 +203,11 @@ main>h2 {
     box-shadow: #CCA9DA 0px 1px 10px 1px;
     border-radius: 5px 5px;
     font-family: "Outfit", sans-serif;
+}
+#Telefono::-webkit-inner-spin-button, 
+#Telefono::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0;
 }
 #Country {
     -moz-appearance: none;
@@ -222,13 +221,17 @@ main>h2 {
     border-spacing: 80px;
     padding: 6px;
     margin: 7px;
-    max-width: 140px;
-    max-height: 150px;
+    max-width: 200px;
+    max-height: 200px;
     background-color: #064142;
     border-color: white;
     box-shadow: #CCA9DA 0px 1px 10px 1px;
     border-radius: 5px 5px;
     font-family: "Outfit", sans-serif;
+    align-self: center;
+}
+#Country:hover {
+    cursor: pointer;
 }
 .inputformulariotext {
     display: block;
@@ -244,17 +247,13 @@ main>h2 {
     border-color: white;
     border-style: groove;
     border-radius: 5px 5px;
-    margin-left: 115px;
 }
 #fieldset-textarea {
     background-color: #064142;
     text-align: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 260px;
+    margin-right: 260px;
     border: 2px solid white;
-}
-#label-textarea {
-    padding-top: -80px;
 }
 
 #Terms {
@@ -280,14 +279,14 @@ main>h2 {
 .botton-form:hover {
     background-color: white;
     color: black;
+    cursor: pointer;
+}
+#botones-divform {
+    padding-top: 5px;
 }
 ::placeholder {
     color: white;
     text-align: center;
-}
-#botones-divform {
-    padding-top: 5px;
-    word-spacing: 20px;
 }
 #checkboxterms:hover {
     box-sizing: border-box;

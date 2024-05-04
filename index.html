@@ -37,7 +37,7 @@
         </p>
     </section>
     <section id="misredes">
-        <h3 class="tituloboxh3">Mis Redes</h3>
+        <h2 class="tituloboxh3">Mis Redes</h2>
         <nav id="redesnav">
             <a href="https://github.com/OsniaaK" id="github-href" target="_blank" rel="noreferrer"><img src="imgs/logogithub.png"
                     alt=""> GitHub</a>
@@ -49,7 +49,7 @@
                     alt=""> TikTok</a>
         </nav>
         <section>
-            <p class="titleformp">Formulario de Contacto</p>
+            <p class="titleformp">¡Contáctame!</p>
             <picture>
                 <img src="imgs/flechaformulario.png" alt="flechaform" id="flechaformulario">
             </picture>
@@ -71,16 +71,16 @@
                 <input type="email" placeholder="Ingrese su correo" id="Correo" class="inputformulario" required>
 
                 <label for="Country" class="label-form" aria-required="true">Selecciona tu país:</label>
-                <select id="Country" name="Country" required>
-                    <option value="">Ninguno</option>
-                    <option value="Argentina" id="Argentina">Argentina</option>
-                    <option value="Chile" id="Chile">Chile</option>
-                    <option value="Uruguay" id="Uruguay">Uruguay</option>
-                    <option value="Paraguay" id="Paraguay">Paraguay</option>
-                    <option value="Bolivia" id="Bolivia">Bolivia</option>
-                    <option value="Peru" id="Peru">Peru</option>
-                    <option value="Brasil" id="Brasil">Brasil</option>
-                    <option value="Ecuador" id="Ecuador">Ecuador</option>
+                <select focus="this.size=9;" onchange="this.size=1; this.blur()" id="Country" name="Country" required>
+                    <option value="" class="paisform">Ninguno</option>
+                    <option value="Argentina" class="paisform">Argentina</option>
+                    <option value="Chile" class="paisform">Chile</option>
+                    <option value="Uruguay" class="paisform">Uruguay</option>
+                    <option value="Paraguay" class="paisform">Paraguay</option>
+                    <option value="Bolivia" class="paisform">Bolivia</option>
+                    <option value="Peru" class="paisform">Peru</option>
+                    <option value="Brasil" class="paisform">Brasil</option>
+                    <option value="Ecuador" class="paisform">Ecuador</option>
                 </select>
             </fieldset>
 
