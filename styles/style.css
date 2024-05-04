@@ -9,12 +9,12 @@ body {
     align-content: center;
 }
 #fotoperfil {
-    mask-image: radial-gradient(circle 280px at 55% 43%, black 60%, transparent 65%);
+    mask-image: radial-gradient(circle 280px at 55% 46%, black 60%, transparent 65%);
     box-shadow: white -8px 3px 10px 3px;
     max-width: 500px;
     max-height: 500px;
-    margin-top: -50px;
-    padding-left: 30px;
+    margin-top: -60px;
+    margin-left: -102px;
     display: block;
 }
 header {
