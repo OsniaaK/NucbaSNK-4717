@@ -25,7 +25,7 @@ header {
     box-shadow: #CCA9DA -8px 3px 10px 3px, #09979F 8px 0px 10px 3px;
     margin: 5px;
     margin-right: 300px;
-    margin-left: 30px;
+    margin-left: 10%;
     padding-left: 20px;
     max-width: 300px;
     max-height: 600px;
@@ -59,7 +59,7 @@ main {
     box-sizing: border-box;
     width: 360px;
     border-radius: 5px;
-    margin-left: 480px;
+    margin-left: 570px;
     margin-top: -600px;
     font-size: 20px;
     box-shadow: #CCA9DA 0px 1px 10px 5px;
@@ -80,7 +80,7 @@ main>h2 {
     border: 1px solid white;
     width: 360px;
     border-radius: 5px;
-    margin-left: 630px;
+    margin-left: 570px;
     margin-top: 30px;
     font-size: 20px;
     box-shadow:#09979F 0px 1px 10px 5px;
@@ -94,7 +94,7 @@ main>h2 {
     border-radius: 5px;
     box-shadow: #CCA9DA -8px 3px 10px 3px, #09979F 8px 0px 10px 3px;
     padding: 10px;
-    margin-left: 1100px;
+    margin-left: 80%;
     margin-top: -550px;
     margin-bottom: 5px;
     width: 150px;
@@ -181,7 +181,7 @@ main>h2 {
     border-style: groove;
     border-radius: 5px 5px;
     padding: 2px;
-    margin: 15px;
+    margin: 50px;
     margin-left: -20px;
     background-color: #064142;
     border: 2px solid white;
