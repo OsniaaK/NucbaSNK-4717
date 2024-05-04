@@ -9,17 +9,16 @@ body {
     align-content: center;
 }
 #fotoperfil {
-    mask-image: radial-gradient(circle 215px at 55% 42%, black 60%, transparent 65%);
+    mask-image: radial-gradient(circle 280px at 55% 43%, black 60%, transparent 65%);
+    box-shadow: white -8px 3px 10px 3px;
     max-width: 500px;
     max-height: 500px;
-    margin-top: -80px;
+    margin-top: -50px;
     padding-left: 30px;
     display: block;
 }
 header {
     border: 1px solid white;
-    background-color: #064142;
-    background-image: url(../imgs/headerlines.png);
     background-repeat: no-repeat;
     background-size: 550px 800px;
     box-shadow: #CCA9DA -8px 3px 10px 3px, #09979F 8px 0px 10px 3px;
@@ -36,20 +35,15 @@ header {
     padding-top: 35px;
 }
 header>h1 {
-    margin: 55px 55px;
-    padding: 30px;
-    margin-top: 20px;
+    margin: 85px;
+    margin-top: -10px;
     text-shadow: black -5px 2px 1px, black 5px 2px 1px;
     font-size: 30px;
 }
 body>header>p {
-    margin: 25px;
-    margin-right: 80px;
-    padding: 35px;
     padding-top: -200px;
-    padding-left: 150px;
-    margin-top: -150px;
-    margin-left: -25px;
+    margin-top: -35px;
+    margin-left: 70px;
     text-shadow: black -5px 2px 1px, black 5px 2px 1px;
     font-size: 30px;
 }
