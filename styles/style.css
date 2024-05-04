@@ -25,7 +25,7 @@ header {
     box-shadow: #CCA9DA -8px 3px 10px 3px, #09979F 8px 0px 10px 3px;
     margin: 5px;
     margin-right: 300px;
-    margin-left: 200px;
+    margin-left: 30px;
     padding-left: 20px;
     max-width: 300px;
     max-height: 600px;
@@ -59,7 +59,7 @@ main {
     box-sizing: border-box;
     width: 360px;
     border-radius: 5px;
-    margin-left: 630px;
+    margin-left: 480px;
     margin-top: -600px;
     font-size: 20px;
     box-shadow: #CCA9DA 0px 1px 10px 5px;
@@ -81,7 +81,7 @@ main>h2 {
     width: 360px;
     border-radius: 5px;
     margin-left: 630px;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 20px;
     box-shadow:#09979F 0px 1px 10px 5px;
     text-align: center;
@@ -95,7 +95,7 @@ main>h2 {
     box-shadow: #CCA9DA -8px 3px 10px 3px, #09979F 8px 0px 10px 3px;
     padding: 10px;
     margin-left: 1100px;
-    margin-top: -485px;
+    margin-top: -550px;
     margin-bottom: 5px;
     width: 150px;
     height: 270px;
@@ -163,7 +163,7 @@ main>h2 {
     font-size: 26px;
 }
 .titleformp {
-    padding-top: 50px;
+    padding-top: 120px;
     padding-right: 30px;
     text-shadow: black -5px 2px 1px, black 5px 2px 1px;
     font-size: 20px;
@@ -181,7 +181,7 @@ main>h2 {
     border-style: groove;
     border-radius: 5px 5px;
     padding: 2px;
-    margin: 5px;
+    margin: 15px;
     margin-left: -20px;
     background-color: #064142;
     border: 2px solid white;
@@ -207,7 +207,8 @@ main>h2 {
 #Telefono::-webkit-inner-spin-button, 
 #Telefono::-webkit-outer-spin-button { 
     -webkit-appearance: none; 
-    margin: 0;
+    margin: 0; 
+
 }
 #Country {
     -moz-appearance: none;
@@ -254,6 +255,7 @@ main>h2 {
     margin-left: 260px;
     margin-right: 260px;
     border: 2px solid white;
+    border-radius: 5px 5px;
 }
 
 #Terms {
